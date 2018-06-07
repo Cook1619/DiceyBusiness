@@ -1,6 +1,8 @@
 let diceRoll = document.getElementById('generateDie');
 diceRoll.addEventListener("click", createDie);
 
+let dieNumbers = [];
+
 class Die {
     constructor() {
         this.div = document.createElement('div');

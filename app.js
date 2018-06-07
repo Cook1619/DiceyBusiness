@@ -9,7 +9,8 @@ class Die {
         this.div.classList.add('dice');
     }
     roll() {
-        return Math.floor(Math.random() * 6) + 1;
+        let value = Math.floor(Math.random() * 6) + 1;
+        this.div = value;
     }
 }
 

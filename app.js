@@ -10,7 +10,7 @@ class Die {
     }
     roll() {
         let value = Math.floor(Math.random() * 6) + 1;
-        this.div = value;
+        this.div.innerText = value;
     }
 }
 

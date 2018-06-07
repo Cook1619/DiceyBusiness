@@ -3,12 +3,16 @@
     border: 5px solid blue;
     height: 60px;
     width: 60px;
-    font-size: 5px;
+    font-size: 20px;
     text-align: center;
     margin: 5px;
+    vertical-align: middle;
+
 }
-.generateDie {
+
+#generateDie {
     position: relative;
     display: block;
-    
+    margin-bottom: 10px;
+
 }

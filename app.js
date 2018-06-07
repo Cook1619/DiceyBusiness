@@ -23,5 +23,5 @@ function createDie(){
 
 let rollbtn = document.getElementById('Roll');
 rollbtn.addEventListener('click', function(){
-    alert('clicked!!');
+    dieNumbers.forEach = i => dieNumbers[i].roll();
 })

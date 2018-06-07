@@ -1,4 +1,4 @@
-.die {
+.dice {
     position: relative;
     border: 5px solid blue;
     height: 60px;
@@ -6,4 +6,9 @@
     font-size: 5px;
     text-align: center;
     margin: 5px;
+}
+.generateDie {
+    position: relative;
+    display: block;
+    
 }

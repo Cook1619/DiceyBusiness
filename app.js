@@ -7,6 +7,8 @@ class Die {
     constructor() {
         this.div = document.createElement('div');
         this.div.classList.add('dice');
+        this.roll();
+        document.body.appendChild(this.div);
     }
     roll() {
         let value = Math.floor(Math.random() * 6) + 1;

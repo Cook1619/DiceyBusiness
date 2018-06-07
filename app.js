@@ -9,6 +9,7 @@ class Die {
         this.div.classList.add('dice');
         this.roll();
         document.body.appendChild(this.div);
+        dieNumbers.push(this);
     }
     roll() {
         let value = Math.floor(Math.random() * 6) + 1;
@@ -19,3 +20,8 @@ class Die {
 function createDie(){
     let die1 = new Die();
 }
+
+let rollbtn = document.getElementById('Roll');
+rollbtn.addEventListener('click', function(){
+    alert('clicked!!');
+})
